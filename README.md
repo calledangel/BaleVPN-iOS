@@ -42,9 +42,22 @@ In **Scan log**, you can follow progress and copy the diagnostic output. Review 
 - [BaleVPN](https://github.com/kookoo1sabzy/BaleVPN) by Kookoo Sabzy provides the upstream tunnel engine. Its MIT notice is preserved in [LICENSE](LICENSE).
 - [CFScanner](https://github.com/MortezaBashsiz/CFScanner) by Morteza Bashsiz inspired the Cloudflare diagnostics. BaleVPN for iOS uses its own scanner implementation.
 
-## Support
+## Support the iPhone release
 
-If you find the app useful, you can support it by reporting a reproducible bug, improving the documentation, or starring the repository.
+I haven’t been able to cover the cost of an [Apple Developer Program membership](https://developer.apple.com/programs/) yet. If you’d like to help, donations will go toward that fee and preparing the iPhone app for TestFlight. You can build the app from source in Xcode today.
+
+### حمایت از انتشار نسخهٔ آیفون
+
+فعلاً هزینهٔ عضویت برنامهٔ توسعه‌دهندگان اپل را نتوانسته‌ام تأمین کنم. اگر دوست داری کمک کنی، حمایتت صرف این هزینه و آماده‌سازی نسخهٔ آیفون برای تست از طریق TestFlight می‌شود. تا آن زمان می‌توانی اپ را از روی سورس در Xcode بسازی.
+
+| Network / شبکه | Receiving address / آدرس دریافت |
+| --- | --- |
+| Bitcoin mainnet (BTC) | `bc1q9vfh5v33hncrqnav0u9avdlk70auy5twefkxqx` |
+| TRON mainnet | `TTtWNd5D1ZPnqtUyWXhY8TvwWHstSVp9LQ` |
+
+Please select the network shown in the table before sending. Reporting a reproducible bug or improving the documentation also helps.
+
+قبل از ارسال، شبکهٔ کیف پولت را با جدول تطبیق بده. گزارش خطایی که بتوانیم دوباره بررسی کنیم یا کمک به راهنما هم برای پروژه ارزش دارد.
 
 ## مجوز و اعتبار
 
