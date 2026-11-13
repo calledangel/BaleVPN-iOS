@@ -1,0 +1,8 @@
+SDKROOT = iphoneos
+SUPPORTED_PLATFORMS = iphoneos
+IPHONEOS_DEPLOYMENT_TARGET = 16.0
+TARGETED_DEVICE_FAMILY = 1
+SWIFT_VERSION = 5.0
+SWIFT_OBJC_BRIDGING_HEADER = $(SRCROOT)/Shared/BaleCore.h
+CODE_SIGN_STYLE = Automatic
+OTHER_LDFLAGS = $(inherited) "$(SRCROOT)/Artifacts/iphoneos/libbale_core.a" "$(SRCROOT)/Artifacts/iphoneos/libflow_driver.a" -lresolv -framework Security -framework SystemConfiguration -framework CoreFoundation

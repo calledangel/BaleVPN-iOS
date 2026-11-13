@@ -1,0 +1,20 @@
+[package]
+name = "bale-core"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+bale-signaling = { path = "../../bale-signaling-rust/bale-signaling" }
+lk-signaling = { path = "../../lk-signaling-rust/lk-signaling" }
+lktunnel = { path = "../../lktunnel-rust/lktunnel" }
+serde_json = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "sync", "time", "macros"] }
+
+[dev-dependencies]
+quinn = { version = "0.11", default-features = false, features = ["runtime-tokio", "rustls-ring"] }
+rcgen = "0.13"
+tokio = { version = "1", features = ["net", "io-util"] }

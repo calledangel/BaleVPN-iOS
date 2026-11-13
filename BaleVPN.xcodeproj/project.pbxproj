@@ -1,0 +1,124 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000000000000000000001 /* BaleVPNApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001; };
+		B10000000000000000000002 /* TokenStore.swift in App Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000003; };
+		B10000000000000000000003 /* BackgroundProxyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000002; };
+		B10000000000000000000004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000005; };
+		B10000000000000000000005 /* CloudflareTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000009; };
+		B10000000000000000000006 /* DNSTTTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000010; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B20000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaleVPNApp.swift; sourceTree = "<group>"; };
+		B20000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundProxyTest.swift; sourceTree = "<group>"; };
+		B20000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStore.swift; sourceTree = "<group>"; };
+		B20000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaleCore.h; sourceTree = "<group>"; };
+		B20000000000000000000005 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20000000000000000000006 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20000000000000000000008 = {isa = PBXFileReference; explicitFileType = wrapper.application; path = BaleVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20000000000000000000009 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudflareTools.swift; sourceTree = "<group>"; };
+		B20000000000000000000010 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSTTTools.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		B30000000000000000000001 = {
+			isa = PBXGroup;
+			children = (B30000000000000000000002, B30000000000000000000004, B30000000000000000000005, );
+			sourceTree = "<group>";
+		};
+		B30000000000000000000002 = {
+			isa = PBXGroup;
+			children = (B20000000000000000000001, B20000000000000000000002, B20000000000000000000005, B20000000000000000000006, B20000000000000000000009, B20000000000000000000010, BA0000000000000000000002, );
+			path = App;
+			sourceTree = "<group>";
+		};
+		B30000000000000000000004 = {
+			isa = PBXGroup;
+			children = (B20000000000000000000003, B20000000000000000000004, BA0000000000000000000001, );
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B30000000000000000000005 = {
+			isa = PBXGroup;
+			children = (B20000000000000000000008, );
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXBuildPhases section */
+		B40000000000000000000001 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (B10000000000000000000001, B10000000000000000000002, B10000000000000000000003, B10000000000000000000005, B10000000000000000000006, );
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40000000000000000000002 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (B10000000000000000000004, );
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXBuildPhases section */
+
+/* Begin PBXNativeTarget section */
+		B50000000000000000000001 /* BaleVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B80000000000000000000002;
+			buildPhases = (B40000000000000000000001, B40000000000000000000002, );
+			buildRules = ();
+			dependencies = ();
+			name = BaleVPN;
+			productName = BaleVPN;
+			productReference = B20000000000000000000008;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B70000000000000000000001 = {
+			isa = PBXProject;
+			buildConfigurationList = B80000000000000000000001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = fa;
+			knownRegions = (fa, Base, );
+			mainGroup = B30000000000000000000001;
+			productRefGroup = B30000000000000000000005;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (B50000000000000000000001, );
+		};
+/* End PBXProject section */
+
+/* Begin XCConfigurationList section */
+		B80000000000000000000001 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (B90000000000000000000001, B90000000000000000000002, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80000000000000000000002 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (B90000000000000000000003, B90000000000000000000004, );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCBuildConfiguration section */
+		B90000000000000000000001 = {isa = XCBuildConfiguration; baseConfigurationReference = BA0000000000000000000001; buildSettings = {SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		B90000000000000000000002 = {isa = XCBuildConfiguration; baseConfigurationReference = BA0000000000000000000001; buildSettings = {}; name = Release; };
+		B90000000000000000000003 = {isa = XCBuildConfiguration; baseConfigurationReference = BA0000000000000000000002; buildSettings = {}; name = Debug; };
+		B90000000000000000000004 = {isa = XCBuildConfiguration; baseConfigurationReference = BA0000000000000000000002; buildSettings = {}; name = Release; };
+		BA0000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared/Common.xcconfig; sourceTree = SOURCE_ROOT; };
+		BA0000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App/App.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End XCBuildConfiguration section */
+	};
+	rootObject = B70000000000000000000001;
+}

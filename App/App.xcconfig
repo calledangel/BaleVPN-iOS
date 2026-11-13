@@ -1,0 +1,5 @@
+PRODUCT_NAME = BaleVPN
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+PRODUCT_BUNDLE_IDENTIFIER = org.balevpn.ios
+INFOPLIST_FILE = App/Info.plist
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks
