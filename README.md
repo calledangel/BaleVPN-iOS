@@ -31,6 +31,21 @@ Each pairing file contains a private key. Keep both files outside the repository
 
 The optional Cloudflare mode uses an imported VLESS WebSocket TLS profile. DNSTT uses an imported tunnel and SSH profile with DNS settings chosen on the device. To report a problem, share the iOS version, method and error stage. Keep connection links, account IDs and exported profiles out of public issues.
 
+## Cloudflare connection diagnostics
+
+The iPhone scanner checks TCP, certificate-verified TLS and WebSocket in separate steps for the Cloudflare profile you import. A WebSocket response is an initial result. The scanner verifies finalists by transferring data through the tunnel in both directions. Its results describe the current network and the configured endpoint.
+
+In **Scan log**, you can follow progress and copy the diagnostic output. Review the log before sharing it because it may contain IP addresses and network information.
+
+## Credits
+
+- [BaleVPN](https://github.com/kookoo1sabzy/BaleVPN) by Kookoo Sabzy provides the upstream tunnel engine. Its MIT notice is preserved in [LICENSE](LICENSE).
+- [CFScanner](https://github.com/MortezaBashsiz/CFScanner) by Morteza Bashsiz inspired the Cloudflare diagnostics. BaleVPN for iOS uses its own scanner implementation.
+
+## Support
+
+If you find the app useful, you can support it by reporting a reproducible bug, improving the documentation, or starring the repository.
+
 ## مجوز و اعتبار
 
 این نسخهٔ غیررسمی برای آیفون است و بر پایهٔ پروژهٔ [BaleVPN](https://github.com/kookoo1sabzy/BaleVPN) نوشتهٔ Kookoo Sabzy ساخته می‌شود. متن مجوز MIT و نام نویسنده در [LICENSE](LICENSE) آمده است.
